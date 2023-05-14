@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    width: 385px;
+    margin: 0 auto;
+}
+
+.counter_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    text-align: center;
+    margin: 70px 0px 20px 0px;
+    padding: 0px;
+}
+
+.score_wrapper {
+    background-color: #1B244A;
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}

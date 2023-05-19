@@ -1,6 +1,11 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil-Aznm;
+}
 body {
     margin: 0;
     background-color: #1B244A;
+    font-family: CursedTimerUlil-Aznm;
 }
 
 .container {
@@ -14,6 +19,18 @@ body {
 .counter_wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin: 0px 50px;
+}
+
+.counter {
+    background-color: #1B244A;
+    border-radius: 10%;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    padding: 0px 10px;
+    margin: 0px 3px;
 }
 
 h3 {
@@ -21,18 +38,29 @@ h3 {
     color: #EEEEEE;
     font-size: 40px;
     text-align: center;
-    margin: 70px 0px 20px 0px;
+    margin: 50px 0px 15px 0px;
     padding: 0px;
 }
 
 .score_wrapper {
-    background-color: #1B244A;
-    height: 100px;
-    width: 100px;
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.tallies {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 p {
-    text-align: center;
-    font-size: 40px;
-    color: red;
+    font-size: 90px;
+    color: #F94F6D;
 }

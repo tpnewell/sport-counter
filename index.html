@@ -7,21 +7,24 @@
         <div class="container">
             <div class="counter_wrapper">
                 <h3>HOME</h3>
-                <p class="'score">0</p>
-                <div class="tallies">
-                    <button class="counter">+1</button>
-                    <button class="counter">+2</button>
-                    <button class="counter">+3</button>
+                <div class="score_wrapper">
+                    <p id="home-tally" class="score">0</p>
                 </div>
-               
+                <div class="tallies">
+                    <button onclick="homeAddOne()" class="counter">+1</button>
+                    <button onclick="homeAddTwo()" class="counter">+2</button>
+                    <button onclick="homeAddThree()" class="counter">+3</button>
+                </div>
             </div>
             <div class="counter_wrapper">
                 <h3>GUEST</h3>
-                <p class="score">0</p>
+                <div class="score_wrapper">
+                    <p id="guest_score" class="'score">0</p>
+                </div>
                 <div class="tallies">
-                    <button class="counter">+1</button>
-                    <button class="counter">+2</button>
-                    <button class="counter">+3</button>
+                    <button onclick="guestAddOne()" class="counter">+1</button>
+                    <button onclick="guestAddTwo()" class="counter">+2</button>
+                    <button onclick="guestAddThree()" class="counter">+3</button>
                 </div>
             </div>
         </div>
